@@ -1,0 +1,30 @@
+tasks:
+  fishingcertain:
+    type: 'fishingcertain'
+    item: SADDLE
+    amount: 1
+display:
+  name: '&#3ca1ffFishing &8▪ &fSaddle'
+  lore-normal:
+    - '&8&m----------------------------'
+    - '&7You need to catch certain amount'
+    - '&7of fish to receive the reward.'
+    - ''
+    - '&#3ae995Information:'
+    - '&#3ae995▪ &fAction: &#3ca1ffCatch'
+    - '&#3ae995▪ &fEntity: &#3ae995Saddle'
+    - '&#3ae995▪ &fAmount: &#3ae9951'
+    - '&#3ae995▪ &fProgress: &#3ae995{fishingcertain:progress}&f/&#3ae9951'
+    - '&#3ae995▪ &fReward: &e200$'
+    - '&8&m----------------------------'
+  type: 'SADDLE'
+rewards:
+  - 'eco give {player} 200'
+options:
+  category: 'fishing'
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 46

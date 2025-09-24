@@ -1,0 +1,29 @@
+tasks:
+  playtime:
+    type: 'playtime'
+    minutes: 70
+display:
+  name: '&#b24afcPlaytime &8▪ &fVicious VII'
+  lore-normal:
+    - '&8&m-----------------------------'
+    - '&7You need to play a certain amount'
+    - '&7of time to receive the reward.'
+    - ''
+    - '&#3ae995Information:'
+    - '&#3ae995▪ &fAction: &#b24afcPlay'
+    - '&#3ae995▪ &fTime: &#3ae99570 Minutes'
+    - '&#3ae995▪ &fProgress: &#3ae995{playtime:progress}&f/&#3ae99570'
+    - '&#3ae995▪ &fReward: &e1050$'
+    - '&8&m-----------------------------'
+  type: 'COMPASS'
+rewards:
+  - 'eco give {player} 1050'
+options:
+  category: 'playtime'
+  requires:
+  - "playtimevicious6"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 7

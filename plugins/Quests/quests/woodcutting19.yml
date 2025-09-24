@@ -1,0 +1,32 @@
+tasks:
+  blockbreakcertain:
+    type: 'blockbreakcertain'
+    amount: 128
+    block: ACACIA_LOG
+    check-coreprotect: true  
+display:
+  name: "&eWoodcutting &8▪ &fAcacia Log"
+  lore-normal:
+    - '&8&m----------------------------'
+    - '&7You need to cut a certain amount'
+    - '&7of wood to receive the reward.'
+    - ""
+    - '&#3ae995Information:'
+    - '&#3ae995▪ &fAction: &eCut'
+    - '&#3ae995▪ &fBlock: &#3ae995Acacia Log'
+    - '&#3ae995▪ &fAmount: &#3ae995128'
+    - '&#3ae995▪ &fProgress: &#3ae995{blockbreakcertain:progress}&f/&#3ae995128'
+    - '&#3ae995▪ &fReward: &e200$'
+    - '&8&m----------------------------'
+  type: 'ACACIA_LOG'
+rewards:
+  - 'eco give {player} 200'
+options:
+  category: 'woodcutting'
+  requires:
+  - "woodcutting18"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 19

@@ -1,0 +1,30 @@
+tasks:
+  smelting:
+    type: "smelting"
+    amount: 256
+    item: GREEN_DYE
+display:
+  name: "&#ff006fSmelting &8▪ &fCactus"
+  lore-normal:
+    - '&8&m----------------------------'
+    - "&7You need to smelt a certain"
+    - "&7item to receive the reward."
+    - ""
+    - '&#3ae995Information:'
+    - '&#3ae995▪ &fAction: &#ff006fSmelt'
+    - '&#3ae995▪ &fItem: &#3ae995Cactus'
+    - '&#3ae995▪ &fAmount: &#3ae995256'
+    - '&#3ae995▪ &fProgress: &#3ae995{smelting:progress}&f/&#3ae995256'
+    - '&#3ae995▪ &fReward: &e200$'
+    - '&8&m----------------------------'
+  type: "CACTUS"
+rewards:
+  - "eco give {player} 200"
+options:
+  category: "smelting"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 14

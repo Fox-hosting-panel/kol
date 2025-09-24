@@ -1,0 +1,9 @@
+PetWeight:
+  # Enable/Disable the PetWeight module
+  Enabled: true
+PermissionLore:
+  # Enable/Disable the PermissionLore module
+  Enabled: true
+PvpAddon:
+  # Enable/Disable the PvpAddon module
+  Enabled: true

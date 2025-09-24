@@ -1,0 +1,31 @@
+tasks:
+  mobkilling:
+    type: "mobkilling"
+    mob: VEX
+    amount: 50
+display:
+  name: "&cHunter &8▪ &fVex"
+  lore-normal:
+    - "&8&m----------------------------"
+    - "&7You need to killing a certain"
+    - "&7entity to receive the reward."
+    - ""
+    - "&#3ae995Information:"
+    - "&#3ae995▪ &fAction: &cKill"
+    - "&#3ae995▪ &fEntity: &#3ae995Vex"
+    - "&#3ae995▪ &fAmount: &#3ae99550"
+    - "&#3ae995▪ &fProgress: &#3ae995{mobkilling:progress}&f/&#3ae99550"
+    - "&#3ae995▪ &fReward: &e700$"
+    - "&8&m----------------------------"
+  type: "VEX_SPAWN_EGG"
+rewards:
+  - "eco give {player} 700"
+options:
+  category: "hunter"
+  requires:
+  - "huntervex1"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 234

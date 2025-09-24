@@ -1,0 +1,31 @@
+tasks:
+  mobkilling:
+    type: "mobkilling"
+    mob: WARDEN
+    amount: 15
+display:
+  name: "&cHunter &8▪ &fWarden"
+  lore-normal:
+    - "&8&m----------------------------"
+    - "&7You need to killing a certain"
+    - "&7entity to receive the reward."
+    - ""
+    - "&#3ae995Information:"
+    - "&#3ae995▪ &fAction: &cKill"
+    - "&#3ae995▪ &fEntity: &#3ae995Warden"
+    - "&#3ae995▪ &fAmount: &#3ae99515"
+    - "&#3ae995▪ &fProgress: &#3ae995{mobkilling:progress}&f/&#3ae99515"
+    - "&#3ae995▪ &fReward: &e15000$"
+    - "&8&m----------------------------"
+  type: "WARDEN_SPAWN_EGG"
+rewards:
+  - "eco give {player} 15000"
+options:
+  category: "hunter"
+  requires:
+  - "hunterwarden2"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 251

@@ -1,0 +1,19 @@
+{
+  "enabled": true,
+  "item": {
+    "material": "PLAYER_HEAD",
+    "lore": [
+      "&8Pet Manage",
+      "",
+      "&#fcfcfcClick Here to remove this pet",
+      "&#fcfcfcor all pets if you have the ",
+      "&#fcfcfcselector screen open.",
+      "",
+      "&#f6eb33▶ Shift+Click to select a pet."
+    ],
+    "meta": {
+      "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ=="
+    },
+    "name": "&#B35349Remove Pets"
+  }
+}

@@ -1,0 +1,31 @@
+tasks:
+  walking:
+    type: 'walking'
+    distance: 5000
+    mode: strider
+display:
+  name: '&bExplorer &8▪ &fStrider'
+  lore-normal:
+    - '&8&m----------------------------'
+    - '&7You need to travel a certain'
+    - '&7distance to receive the reward.'
+    - ''
+    - '&#3ae995Information:'
+    - '&#3ae995▪ &fAction: &bTravel'
+    - '&#3ae995▪ &fMode: &#3ae995Strider'
+    - '&#3ae995▪ &fDistance: &#3ae9955000'
+    - '&#3ae995▪ &fProgress: &#3ae995{walking:progress}&f/&#3ae9955000'
+    - '&#3ae995▪ &fReward: &e1000$'
+    - '&8&m----------------------------'
+  type: 'STRIDER_SPAWN_EGG'
+rewards:
+  - 'eco give {player} 1000'
+options:
+  category: 'explorer'
+  requires:
+  - "explorerstrider1"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 18

@@ -1,0 +1,15 @@
+on portal enter:
+	if player is in world "Spawn":
+		set {_waited} to difference between {portalwait::%uuid of player%} and now
+		if {_waited} is less than 1 second:
+			stop
+
+		set {portalwait::%uuid of player%} to now
+		wait 1 tick
+		push player backwards with speed 2
+		wait 3 ticks
+		make player execute command "/rtp"
+
+on portal:
+	if player is in world "Spawn":
+		cancel event

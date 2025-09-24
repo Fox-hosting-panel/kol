@@ -1,0 +1,28 @@
+command /givetag [<text>]:
+	description: Get seasonal tags for Crates plugin
+	trigger:
+		if player has permission "gettag.admin":
+			if arg-1 is "Summer":
+				send "&r", " &a&l>> &7You received the Summer Seasonal Tags. Please read the documentation for more information on how to use these!" and "&a"
+				give player name tag with name "<##fba900>&lS<##fb9400>&lU<##fc7f00>&lM<##fc6a00>&lM<##fd5500>&lE<##fd4000>&lR&r &8| &7Exclusive Seasonal Tag"
+				give player name tag with name "<##00fbe0>&lE<##00fbd1>&lX<##00fcc2>&lO<##00fcb4>&lT<##00fda5>&lI<##00fd96>&lC&r &8| &7Exclusive Seasonal Tag"
+				give player name tag with name "<##fffdc8>&lB<##fff896>&lE<##fef264>&lA<##feed32>&lC<##fde700>&lH&r &8| &7Exclusive Seasonal Tag"
+			else if arg-1 is "Autumn":
+				send "&r", " &a&l>> &7You received the Autumn Seasonal Tags. Please read the documentation for more information on how to use these!" and "&a"
+				give player name tag with name "<##fbbc1a>&lA<##fbbb16>&lU<##fcba12>&lT<##fcba0e>&lU<##fdb90a>&lM<##fdb806>&lN&r &8| &7Exclusive Seasonal Tag"
+				give player name tag with name "<##fb4242>&lL<##fb5137>&lE<##fc602b>&lA<##fc6f20>&lV<##fd7e14>&lE<##fd8d09>&lS&r &8| &7Exclusive Seasonal Tag"
+				give player name tag with name "<##845555>&lS<##905353>&lP<##9b5252>&lO<##a75050>&lO<##b24f4f>&lK<##be4d4d>&lY&r &8| &7Exclusive Seasonal Tag"
+			else if arg-1 is "Winter":
+				send "&r", " &a&l>> &7You received the Winter Seasonal Tags. Please read the documentation for more information on how to use these!" and "&a"
+				give player name tag with name "<##e1fbdf>&lW<##cbf0e5>&lI<##b5e5eb>&lN<##a0d9f1>&lT<##8acef7>&lE<##74c3fd>&lR&r &8| &7Exclusive Seasonal Tag"
+				give player name tag with name "<##39c309>&lC<##51b408>&lH<##6aa507>&lR<##829606>&lI<##9a8705>&lS<##b27803>&lT<##cb6902>&lM<##e35a01>&lA<##fb4b00>&lS&r &8| &7Exclusive Seasonal Tag"
+				give player name tag with name "<##2aeefb>&lS<##2aeefb>&lL<##2aeefb>&lE<##2aeefb>&lD<##2aeefb>&lD<##2aeefb>&lI<##2aeefb>&lN<##2aeefb>&lG&r &8| &7Exclusive Seasonal Tag"
+			else if arg-1 is "Spring":
+				send "&r", " &a&l>> &7You received the Spring Seasonal Tags. Please read the documentation for more information on how to use these!" and "&a"
+				give player name tag with name "<##ffd600>&lE<##d7dd01>&lA<##afe503>&lS<##88ec04>&lT<##60f406>&lE<##38fb07>&lR&r &8| &7Exclusive Seasonal Tag"
+				give player name tag with name "<##ffd600>&lS<##fadd00>&lP<##f5e500>&lR<##f1ec00>&lI<##ecf400>&lN<##e7fb00>&lG&r &8| &7Exclusive Seasonal Tag"
+				give player name tag with name "<##ff00f5>&lB<##f60ff7>&lL<##ed1ef8>&lO<##e52dfa>&lS<##dc3bfc>&lS<##d34afd>&lO<##ca59ff>&lM&r &8| &7Exclusive Seasonal Tag"
+			else:
+				message "&r", " &c&lInvalid Season", "&f Correct usage: &c/givetag <summer|autumn|winter|spring>" and "&f"
+		else:
+			stop

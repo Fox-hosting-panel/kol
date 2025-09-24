@@ -1,0 +1,12 @@
+version: 4.0
+players:
+  3d5432ca-b1b9-43f1-bc31-67a521aba1aa:
+    time: 50.0
+    last_daily_bonus: 1726419041941
+    logged_in_flight: false
+    compat_logged_in_flight: true
+  4e804206-52b7-3713-b485-33f675d081d8:
+    time: 10.0
+    last_daily_bonus: 1758653783973
+    logged_in_flight: false
+    compat_logged_in_flight: false

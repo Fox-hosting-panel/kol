@@ -1,0 +1,38 @@
+tasks:
+  inventory:
+    type: "inventory"
+    item: LIGHT_BLUE_DYE
+    remove-items-when-complete: true
+    update-progress: true
+    amount: 32
+display:
+  name: "&#ffd200Collecting &8▪ &fLight Blue Dye"
+  lore-normal:
+    - '&8&m-----------------------------'
+    - "&7You need to get a certain amount"
+    - "&7of an item to receive the reward"
+    - ""
+    - '&#3ae995Information:'
+    - '&#3ae995▪ &fAction: &#ffd200Collect'
+    - '&#3ae995▪ &fItem: &#3ae995Light Blue Dye'
+    - '&#3ae995▪ &fAmount: &#3ae99532'
+    - '&#3ae995▪ &fProgress: &#3ae995{inventory:progress}&f/&#3ae99532'
+    - '&#3ae995▪ &fReward: &e30$'
+    - ""
+    - '&#ffd200[!] &fAttention:'
+    - '&#ffd200Your items will be taken from your'
+    - '&#ffd200inventory and they will go towards'
+    - '&#ffd200the progress count.'
+    - '&8&m-----------------------------'
+  type: "LIGHT_BLUE_DYE"
+rewards:
+  - "eco give {player} 30"
+options:
+  category: "collecting"
+  requires:
+  - "collecting13"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 14

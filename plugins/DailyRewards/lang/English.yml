@@ -1,0 +1,205 @@
+#
+# From 1.16 version you can also use HEX colors.
+# Instead of &f format use <#ffffff>
+# and for gradient: <#ffffff>Text where will be applied gradient</#000000>
+#
+lang:
+  prefix: '&6&lDailyRewards'
+  auto-claim-notification:
+  - ' '
+  - '&a ✔ &f%rewards% reward(s) has been successfully auto-claimed!'
+  - ' '
+  unclaimed-rewards-notification-hover-text: '&2Click to obtain rewards!'
+  reward-reset: '&e[&6&lDailyRewards&e] &fYou reset the &e%type%&f reward(s) of a player &e%player%'
+  unavailable-player: '&c[&4&lDailyRewards&c] Player &n%player%&c is not available'
+  unavailable-setting: '%prefix% &cThis setting does not exist!'
+  reward-disabled: '&c[&4&lDailyRewards&c] Reward cannot be obtained!'
+  permission-msg: '&c[&4&lDailyRewards&c] You are not permitted to use this command'
+  rewards-are-not-set: '&c[&4&lDailyRewards&c] Rewards are not set!'
+  reload-msg: '&e[&6&lDailyRewards&e] &fPlugin was successfully reloaded'
+  incomplete-reward-reset: '&c[&4&lDailyRewards&c] Specify what you specifically want to reset (daily/weekly/monthly/all)'
+  full-inventory-message: '&c[&4&lDailyRewards&c] You can not obtain the reward(s), your inventory is full!'
+  claiming-in-disabled-world: '%prefix% &cYou can not obtain rewards in %world% world'
+  not-enough-required-time-to-claim: '%prefix% &cYou must spend at least %requiredMinutes% minutes on the server before
+  you can collect rewards (%minutes% minutes remaining)'
+  command-usage: '&c[&4&lDailyRewards&c] Valid usage: %usage%'
+  loading: '&bLoading...'
+  back: '&cBack'
+  help-message:
+  - '&fList with all available commands:'
+  - '&f/rewards &7- Main GUI menu'
+  - '&f/reward claim <reward>&7- Obtains certain reward'
+  - '&f/reward reset <player> <daily|weekly|monthly|all>'
+  - '&f/reward import - &7Imports file data to database'
+  - '&f/reward reload &7- Reloads configuration section'
+  - '&f/reward settings &7- Opens settings menu'
+  - '&f/reward toggle <setting> &7- Toggles certain setting'
+  #
+  # Settings
+  #
+  settings-title: Settings
+  settings-display-name: '&eSettings'
+  setting-enabled: '%prefix% &aYou have enabled %setting%!'
+  setting-disabled: '%prefix% &cYou have disabled %setting%!'
+  auto-claim-failed: '%prefix% &cSome reward(s) could not be auto claimed, hover for details.'
+  auto-claim-failed-hover-text-list-format: '%reward% - %reason%'
+  auto-claim-failed-hover-text: '&cFollowing rewards cannot be auto claimed: %format%'
+  join-auto-claim-notification:
+  - ' '
+  - '&a ✔ Following reward(s) has been auto-claimed: &f%listOfRewards%'
+  - ' '
+  join-notification-setting-name: Join Notification
+  join-auto-claim-setting-name: Join Auto Claim
+  no-permission-setting-display-name: '&c&l%settingType%'
+  no-permission-setting-lore:
+  - '&cYou can not toggle this type of setting!'
+  - '&cMissing permission: %permission%'
+  join-notification-display-name: '&aJoin Notification'
+  join-notification-enabled-lore:
+  - '&7Notify you on join'
+  - '&7if you have uncollected rewards'
+  - ' '
+  - '&c- Click to disable'
+  join-notification-disabled-lore:
+  - '&7Notify you on join'
+  - '&7if you have uncollected rewards'
+  - ' '
+  - '&a- Click to enable'
+  auto-claim-display-name: '&aAuto Claim'
+  auto-claim-enabled-lore:
+  - '&7Will automatically claim'
+  - '&7all available rewards on join'
+  - ' '
+  - '&c- Click to disable'
+  auto-claim-disabled-lore:
+  - '&7Will automatically claim'
+  - '&7all available rewards on join'
+  - ' '
+  - '&a- Click to enable'
+
+  located-in-restricted-world: Reward is unavailable in current world
+  insufficient-play-time: Not enough play-time to claim
+  insufficient-permissions: Insufficient permissions
+  not-enough-free-inventory-slots: Not enough free inventory slots
+  unavailable-reward: Reward is unavailable
+  #
+  # Rewards menu
+  #
+  menu-title: Rewards
+  join-hover-message: '&7Click for collect your rewards'
+  join-notification:
+  - ' '
+  - '&2 - &a%rewards% reward(s) are waiting for you! &f(Click here)'
+  - ' '
+  cooldown-message: '&c[&4&lDailyRewards&c] For &l%type% &creward you have to wait &n%time%'
+  daily-name: Daily Reward
+  daily-title: '&a&lRewards'
+  daily-subtitle: '&7You have collected your &adaily&7 reward'
+  daily-collected: '&a%player% &7collected his &a&ldaily reward!'
+  daily-premium-collected: '&a%player% &7collected his &a&lpremium daily reward!'
+  daily-displayname-available: '&6&lDAILY REWARD'
+  daily-premium-displayname-available: '&6&lDAILY REWARD'
+  daily-available-lore:
+  - '&7Reward contains:'
+  - ''
+  - '&8[ &a5m &8] &fFly'
+  - '&8[ &a25x &8] &fSouls'
+  - '&8[ &a1x &8] &fVote Key'
+  - '&8[ &a10x &8] &fIron Ingot'
+  - '&8[ &a$1250 &8] &fCash'
+  - ''
+  - '&ePremium rewards &8[ &c❌ &8]'
+  daily-available-premium-lore:
+  - '&7Reward contains:'
+  - ''
+  - '&8[ &a10m &8] &fFly'
+  - '&8[ &a50x &8] &fSouls'
+  - '&8[ &a2x &8] &fVote Key'
+  - '&8[ &a20x &8] &fIron Ingot'
+  - '&8[ &a$2500 &8] &fCash'
+  - ''
+  - '&ePremium rewards &8[ &a✔ &8]'
+  daily-displayname-unavailable: '&c&lDAILY REWARD'
+  daily-premium-displayname-unavailable: '&4&lDAILY REWARD'
+  daily-unavailable-lore:
+  - ''
+  - '&cAvailable in: %cooldown%'
+  daily-unavailable-premium-lore:
+  - ''
+  - '&cAvailable in: %cooldown%'
+  weekly-name: Weekly Reward
+  weekly-title: '&e&lRewards'
+  weekly-subtitle: '&7You have collected your &eweekly &7reward'
+  weekly-collected: '&e%player% &7collected his &e&lweekly reward!'
+  weekly-premium-collected: '&e%player% &7collected his &e&lpremium weekly reward!'
+  weekly-displayname-available: '&6&lWEEKLY REWARD'
+  weekly-premium-displayname-available: '&6&lWEEKLY REWARD'
+  weekly-available-lore:
+  - '&7Reward contains:'
+  - ''
+  - '&8[ &a10m &8] &fFly'
+  - '&8[ &a20x &8] &fDiamond'
+  - '&8[ &a2x &8] &fVote Key'
+  - '&8[ &a20x &8] &fGold Ingot'
+  - '&8[ &a200x &8] &fSouls'
+  - '&8[ &a$2500 &8] &fCash'
+  - ''
+  - '&ePremium rewards &8[ &c❌ &8]'
+  weekly-available-premium-lore:
+  - '&7Reward contains:'
+  - ''
+  - '&8[ &a20m &8] &fFly'
+  - '&8[ &a30x &8] &fDiamond'
+  - '&8[ &a3x &8] &fVote Key'
+  - '&8[ &a30x &8] &fGold Ingot'
+  - '&8[ &a300x &8] &fSouls'
+  - '&8[ &a$5000 &8] &fCash'
+  - ''
+  - '&ePremium rewards &8[ &a✔ &8]'
+  weekly-displayname-unavailable: '&c&lWEEKLY REWARD'
+  weekly-premium-displayname-unavailable: '&4&lWEEKLY REWARD'
+  weekly-unavailable-lore:
+  - ''
+  - '&cAvailable in: %cooldown%'
+  weekly-unavailable-premium-lore:
+  - ''
+  - '&cAvailable in: %cooldown%'
+  monthly-name: Monthly Reward
+  monthly-title: '&9&lRewards'
+  monthly-subtitle: '&7You have collected your &9monthly &7reward'
+  monthly-collected: '&9%player% &7collected his &9&lmonthly reward!'
+  monthly-premium-collected: '&9%player% &7collected his &9&lpremium monthly reward!'
+  monthly-displayname-available: '&6&lMONTHLY REWARD'
+  monthly-premium-displayname-available: '&6&lMONTHLY REWARD'
+  monthly-available-lore:
+  - '&7Reward contains:'
+  - ''
+  - '&8[ &a20m &8] &fFly'
+  - '&8[ &a40x &8] &fDiamond'
+  - '&8[ &a20x &8] &fEmerald'
+  - '&8[ &a3x &8] &fVote Key'
+  - '&8[ &a30x &8] &fGolden Apple'
+  - '&8[ &a500x &8] &fSouls'
+  - '&8[ &a$10000 &8] &fCash'
+  - ''
+  - '&ePremium rewards &8[ &c❌ &8]'
+  monthly-available-premium-lore:
+  - '&7Reward contains:'
+  - ''
+  - '&8[ &a30m &8] &fFly'
+  - '&8[ &a50x &8] &fDiamond'
+  - '&8[ &a30x &8] &fEmerald'
+  - '&8[ &a4x &8] &fVote Key'
+  - '&8[ &a35x &8] &fGolden Apple'
+  - '&8[ &a1500x &8] &fSouls'
+  - '&8[ &a$15000 &8] &fCash'
+  - ''
+  - '&ePremium rewards &8[ &a✔ &8]'
+  monthly-displayname-unavailable: '&c&lMONTHLY REWARD'
+  monthly-premium-displayname-unavailable: '&4&lMONTHLY REWARD'
+  monthly-unavailable-lore:
+  - ''
+  - '&cAvailable in: %cooldown%'
+  monthly-unavailable-premium-lore:
+  - ''
+  - '&cAvailable in: %cooldown%'

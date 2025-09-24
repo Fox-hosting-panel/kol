@@ -1,0 +1,127 @@
+sellwand:
+  wand_1:
+    name: "&6&lSell &e&lWand &7(%uses% uses)"
+    material: STICK
+    glowing: true
+    multiplier: 1.0
+    uses: 30
+    lore:
+      - "&8ᴍᴏɴᴇʏ ɪᴛᴇᴍ"
+      - ""
+      - "&7Right-Click on a chest to sell all of"
+      - "&7its contents with a multiplier of &f%multiplier%x"
+      - ""
+      - "&6&lInformation:"
+      - " &6* &7Duration: &f%uses% Left"
+      - " &6* &7Multiplier: &f%multiplier%x"
+      - ""
+      - "&7(( &fRight-Click &7a chest to use! ))"
+      - "&7(( &fLeft-Click &7a chest to see value! ))"
+  wand_2:
+    name: "&6&lSell &e&lWand &7(%uses% uses)"
+    material: STICK
+    glowing: true
+    multiplier: 1.0
+    uses: 50
+    lore:
+      - "&8ᴍᴏɴᴇʏ ɪᴛᴇᴍ"
+      - ""
+      - "&7Right-Click on a chest to sell all of"
+      - "&7its contents with a multiplier of &f%multiplier%x"
+      - ""
+      - "&6&lInformation:"
+      - " &6* &7Duration: &f%uses% Left"
+      - " &6* &7Multiplier: &f%multiplier%x"
+      - ""
+      - "&7(( &fRight-Click &7a chest to use! ))"
+      - "&7(( &fLeft-Click &7a chest to see value! ))"
+  wand_3:
+    name: "&6&lSell &e&lWand &7(%uses% uses)"
+    material: STICK
+    glowing: true
+    multiplier: 1.25
+    uses: 50
+    lore:
+      - "&8ᴍᴏɴᴇʏ ɪᴛᴇᴍ"
+      - ""
+      - "&7Right-Click on a chest to sell all of"
+      - "&7its contents with a multiplier of &f%multiplier%x"
+      - ""
+      - "&6&lInformation:"
+      - " &6* &7Duration: &f%uses% Left"
+      - " &6* &7Multiplier: &f%multiplier%x"
+      - ""
+      - "&7(( &fRight-Click &7a chest to use! ))"
+      - "&7(( &fLeft-Click &7a chest to see value! ))"
+  wand_4:
+    name: "&6&lSell &e&lWand &7(%uses% uses)"
+    material: STICK
+    glowing: true
+    multiplier: 1.25
+    uses: 100
+    lore:
+      - "&8ᴍᴏɴᴇʏ ɪᴛᴇᴍ"
+      - ""
+      - "&7Right-Click on a chest to sell all of"
+      - "&7its contents with a multiplier of &f%multiplier%x"
+      - ""
+      - "&6&lInformation:"
+      - " &6* &7Duration: &f%uses% Left"
+      - " &6* &7Multiplier: &f%multiplier%x"
+      - ""
+      - "&7(( &fRight-Click &7a chest to use! ))"
+      - "&7(( &fLeft-Click &7a chest to see value! ))"
+  wand_5:
+    name: "&6&lSell &e&lWand &7(%uses% uses)"
+    material: STICK
+    glowing: true
+    multiplier: 2.0
+    uses: 50
+    lore:
+      - "&8ᴍᴏɴᴇʏ ɪᴛᴇᴍ"
+      - ""
+      - "&7Right-Click on a chest to sell all of"
+      - "&7its contents with a multiplier of &f%multiplier%x"
+      - ""
+      - "&6&lInformation:"
+      - " &6* &7Duration: &f%uses% Left"
+      - " &6* &7Multiplier: &f%multiplier%x"
+      - ""
+      - "&7(( &fRight-Click &7a chest to use! ))"
+      - "&7(( &fLeft-Click &7a chest to see value! ))"
+  wand_6:
+    name: "&6&lSell &e&lWand &7(%uses% uses)"
+    material: STICK
+    glowing: true
+    multiplier: 2.0
+    uses: 100
+    lore:
+      - "&8ᴍᴏɴᴇʏ ɪᴛᴇᴍ"
+      - ""
+      - "&7Right-Click on a chest to sell all of"
+      - "&7its contents with a multiplier of &f%multiplier%x"
+      - ""
+      - "&6&lInformation:"
+      - " &6* &7Duration: &f%uses% Left"
+      - " &6* &7Multiplier: &f%multiplier%x"
+      - ""
+      - "&7(( &fRight-Click &7a chest to use! ))"
+      - "&7(( &fLeft-Click &7a chest to see value! ))"
+  wand_7:
+    name: "&6&lSell &e&lWand &7(%uses% uses)"
+    material: STICK
+    glowing: true
+    multiplier: 2.0
+    uses: 150
+    lore:
+      - "&8ᴍᴏɴᴇʏ ɪᴛᴇᴍ"
+      - ""
+      - "&7Right-Click on a chest to sell all of"
+      - "&7its contents with a multiplier of &f%multiplier%x"
+      - ""
+      - "&6&lInformation:"
+      - " &6* &7Duration: &f%uses% Left"
+      - " &6* &7Multiplier: &f%multiplier%x"
+      - ""
+      - "&7(( &fRight-Click &7a chest to use! ))"
+      - "&7(( &fLeft-Click &7a chest to see value! ))"

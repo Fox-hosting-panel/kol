@@ -1,0 +1,275 @@
+{
+  "enabled": true,
+  "hat": true,
+  "mount": true,
+  "ambient-sound": "ENTITY_HORSE_AMBIENT",
+  "commands": {
+    "SPAWN": [
+      
+    ],
+    "REVOKE": [
+      
+    ],
+    "RIDE": [
+      
+    ],
+    "RIDE_DISMOUNT": [
+      
+    ],
+    "HAT": [
+      
+    ],
+    "TELEPORT": [
+      
+    ],
+    "FAILED": [
+      
+    ]
+  },
+  "ride_speed": 0.200004838418579,
+  "walk_speed": 0.580804838418579,
+  "fly_speed": 0.300000438418579,
+  "fly": false,
+  "float_down": false,
+  "display_name": "&a&l%player%'s Horse Pet",
+  "item": {
+    "material": "PLAYER_HEAD",
+    "meta": {
+      "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI4ZDFhYjRiZTFlMjhiN2I0NjFmZGVhNDYzODFhYzM2M2E3ZTVjMzU5MWM5ZTVkMjY4M2ZiZTFlYzlmY2QzIn19fQ=="
+    },
+    "name": "&#C8F792Horse"
+  },
+  "data": {
+    "visible": {
+      "enabled": false,
+      "default": true,
+      "values": {
+        "true": {
+          "material": "GLASS_BOTTLE",
+          "name": "&#C8C8C8Visible: &atrue"
+        },
+        "false": {
+          "material": "SPLASH_POTION",
+          "meta": {
+            "base": {
+              "upgraded": false,
+              "type": "UNCRAFTABLE",
+              "extended": false
+            }
+          },
+          "name": "&#C8C8C8Visible: &cfalse"
+        }
+      }
+    },
+    "frozen": {
+      "enabled": true,
+      "default": false,
+      "values": {
+        "true": {
+          "material": "ICE",
+          "name": "&#C8C8C8Frozen: &atrue"
+        },
+        "false": {
+          "material": "GRASS_BLOCK",
+          "name": "&#C8C8C8Frozen: &cfalse"
+        }
+      }
+    },
+    "burning": {
+      "enabled": true,
+      "default": false,
+      "values": {
+        "true": {
+          "material": "PLAYER_HEAD",
+          "meta": {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA4MGJiZWZjYTg3ZGMwZjM2NTM2YjY1MDg0MjVjZmM0Yjk1YmE2ZThmNWU2YTQ2ZmY5ZTljYjQ4OGE5ZWQifX19"
+          },
+          "name": "&#C8C8C8Burning: &atrue"
+        },
+        "false": {
+          "material": "PLAYER_HEAD",
+          "meta": {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA4MGJiZWZjYTg3ZGMwZjM2NTM2YjY1MDg0MjVjZmM0Yjk1YmE2ZThmNWU2YTQ2ZmY5ZTljYjQ4OGE5ZWQifX19"
+          },
+          "name": "&#C8C8C8Burning: &cfalse"
+        }
+      }
+    },
+    "silent": {
+      "enabled": true,
+      "default": false,
+      "values": {
+        "true": {
+          "material": "PLAYER_HEAD",
+          "meta": {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFmMzI3YzNmMzQ5MTU4ZDIwOWI0ODY3ZDY4ZmZiMTg5MGJjNTdhMDFiYTk0ODNlM2ZmZmU0ZWM3ZmRlYTBiMCJ9fX0="
+          },
+          "name": "&#C8C8C8Silent: &atrue"
+        },
+        "false": {
+          "material": "PLAYER_HEAD",
+          "meta": {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTQ2MTUxOGI3NGQ1ZjcwMTZmNzIyOTQ3NTZmYzY4YzU0NzExMTBjYzk3ZjNiYjA5M2UwYzZlZDk0YTllMyJ9fX0="
+          },
+          "name": "&#C8C8C8Silent: &cfalse"
+        }
+      }
+    },
+    "baby": {
+      "enabled": true,
+      "default": false,
+      "values": {
+        "true": {
+          "material": "WHEAT",
+          "name": "&#C8C8C8Baby: &atrue"
+        },
+        "false": {
+          "material": "WHEAT",
+          "name": "&#C8C8C8Baby: &cfalse"
+        }
+      }
+    },
+    "eating": {
+      "enabled": true,
+      "default": false,
+      "values": {
+        "true": {
+          "material": "APPLE",
+          "name": "&#C8C8C8Eating: &atrue"
+        },
+        "false": {
+          "material": "APPLE",
+          "name": "&#C8C8C8Eating: &cfalse"
+        }
+      }
+    },
+    "armor": {
+      "enabled": true,
+      "default": "NONE",
+      "values": {
+        "GOLD": {
+          "material": "STONE",
+          "name": "&#C8C8C8Armor: &aGOLD"
+        },
+        "DIAMOND": {
+          "material": "DIAMOND_HORSE_ARMOR",
+          "name": "&#C8C8C8Armor: &aDIAMOND"
+        },
+        "LEATHER": {
+          "material": "LEATHER_HORSE_ARMOR",
+          "meta": {
+            "color": {
+              "r": 160,
+              "b": 64,
+              "g": 101
+            }
+          },
+          "name": "&#C8C8C8Armor: &aLEATHER"
+        },
+        "IRON": {
+          "material": "IRON_HORSE_ARMOR",
+          "name": "&#C8C8C8Armor: &aIRON"
+        },
+        "NONE": {
+          "material": "BARRIER",
+          "name": "&#C8C8C8Armor: &aNONE"
+        }
+      }
+    },
+    "color": {
+      "enabled": true,
+      "default": "WHITE",
+      "values": {
+        "WHITE": {
+          "material": "PLAYER_HEAD",
+          "meta": {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY0YmRkNTlkNGY4ZjFkNTc4MmUwZmVlNGJkNjRhZWQxMDA2MjdmMTg4YTkxNDg5YmEzN2VlYWRlZGVkZDgyNyJ9fX0="
+          },
+          "name": "&#C8C8C8Color: &aWHITE"
+        },
+        "GRAY": {
+          "material": "PLAYER_HEAD",
+          "meta": {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGYwZDk1NTg4OWIwMzc4ZDQ5MzNjOTU2Mzk4NTY3ZTc3MDEwM2FlOWVmZjBmNzAyZDBkNTNkNTJlN2Y2YTgzYiJ9fX0="
+          },
+          "name": "&#C8C8C8Color: &aGRAY"
+        },
+        "CHESTNUT": {
+          "material": "PLAYER_HEAD",
+          "meta": {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTcxN2Q3MTAyNWY3YTYyYzkwYTMzM2M1MTY2M2ZmZWIzODVhOWEwZDkyYWY2ODA4M2M1YjA0NWMwNTI0YjIzZiJ9fX0="
+          },
+          "name": "&#C8C8C8Color: &aCHESTNUT"
+        },
+        "BLACK": {
+          "material": "PLAYER_HEAD",
+          "meta": {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VmYjBiOTg1N2Q3YzhkMjk1ZjZkZjk3YjYwNWY0MGI5ZDA3ZWJlMTI4YTY3ODNkMWZhM2UxYmM2ZTQ0MTE3In19fQ=="
+          },
+          "name": "&#C8C8C8Color: &aBLACK"
+        },
+        "DARKBROWN": {
+          "material": "PLAYER_HEAD",
+          "meta": {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTU2YjdiYzFhNDgzNmViNDI4ZWE4OTI1ZWNlYjVlMDFkZmJkMzBjN2RlZmY2Yzk0ODI2ODk4MjMyMDNjZmQyZiJ9fX0="
+          },
+          "name": "&#C8C8C8Color: &aDARKBROWN"
+        },
+        "BROWN": {
+          "material": "PLAYER_HEAD",
+          "meta": {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVlMzk3ZGVmMGFmMDZmZWVmMjI0MjE4NjAwODgxODY2Mzk3MzJhYTBhNWViNTc1NmUwYWE2YjAzZmQwOTJjOCJ9fX0="
+          },
+          "name": "&#C8C8C8Color: &aBROWN"
+        },
+        "CREAMY": {
+          "material": "PLAYER_HEAD",
+          "meta": {
+            "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZkYWUwYWRlMGUwZGFmYjZkYmM3Nzg2Y2U0MjQxMjQyYjZiNmRmNTI3YTBmN2FmMGE0MjE4NGM5M2ZkNjQ2YiJ9fX0="
+          },
+          "name": "&#C8C8C8Color: &aCREAMY"
+        }
+      }
+    },
+    "style": {
+      "enabled": true,
+      "default": "NONE",
+      "values": {
+        "WHITEFIELD": {
+          "material": "LEAD",
+          "name": "&#C8C8C8Style: &aWHITEFIELD"
+        },
+        "WHITE": {
+          "material": "LEAD",
+          "name": "&#C8C8C8Style: &aWHITE"
+        },
+        "NONE": {
+          "material": "LEAD",
+          "name": "&#C8C8C8Style: &aNONE"
+        },
+        "BLACK_DOTS": {
+          "material": "LEAD",
+          "name": "&#C8C8C8Style: &aBLACK_DOTS"
+        },
+        "WHITE_DOTS": {
+          "material": "LEAD",
+          "name": "&#C8C8C8Style: &aWHITE_DOTS"
+        }
+      }
+    },
+    "saddled": {
+      "enabled": true,
+      "default": false,
+      "values": {
+        "true": {
+          "material": "SADDLE",
+          "name": "&#C8C8C8Saddled: &atrue"
+        },
+        "false": {
+          "material": "SADDLE",
+          "name": "&#C8C8C8Saddled: &cfalse"
+        }
+      }
+    }
+  }
+}

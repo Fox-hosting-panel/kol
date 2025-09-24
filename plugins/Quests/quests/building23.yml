@@ -1,0 +1,33 @@
+tasks:
+  blockplace:
+    type: "blockplacecertain"
+    block: DARK_OAK_LOG
+    check-coreprotect: true
+    amount: 128
+    reverse-if-broken: true
+display:
+  name: "&3Building &8▪ &fDark Oak Log"
+  lore-normal:
+    - '&8&m----------------------------'
+    - "&7You need to place the certain"
+    - "&7block to receive the reward."
+    - ""
+    - '&#3ae995Information:'
+    - '&#3ae995▪ &fAction: &3Place'
+    - '&#3ae995▪ &fBlock: &#3ae995Dark Oak Log'
+    - '&#3ae995▪ &fAmount: &#3ae995128'
+    - '&#3ae995▪ &fProgress: &#3ae995{blockplace:progress}&f/&#3ae995128'
+    - '&#3ae995▪ &fReward: &e100$'
+    - '&8&m----------------------------'
+  type: "DARK_OAK_LOG"
+rewards:
+  - "eco give {player} 100"
+options:
+  category: "building"
+  requires:
+    - "building22"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 23

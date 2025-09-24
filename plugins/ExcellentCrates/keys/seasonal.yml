@@ -1,0 +1,17 @@
+Name: '&cSeasonal Crate Key'
+Virtual: false
+Item:
+  Material: TRIPWIRE_HOOK
+  Amount: 1
+  Durability: 1
+  Name: '&c&ki&r #af0000&lS#b60501&lE#bc0a03&lA#c30f04&lS#c91405&lO#d01907&lN#d61e08&lA#dd2209&lL #e3270b&lC#ea2c0c&lR#f0310d&lA#f7360f&lT#fd3b10&lE &c&ki&r &8| &7Crate Key'
+  Lore:
+    - '&8Crate Key'
+    - '&r'
+    - '&7Open this key to unlock powerful'
+    - '&7rewards, ranging from armor and'
+    - '&7gear to exclusive cosmetics!'
+    - '&r'
+    - '&e→ &lOPEN&r&e at &n/warp crates'
+  Item_Flags: [ ]
+  Unbreakable: false

@@ -1,0 +1,17 @@
+Name: '&bVote Crate Key'
+Virtual: false
+Item:
+  Material: TRIPWIRE_HOOK
+  Amount: 1
+  Durability: 1
+  Name: '#33effb&lV#42f0fb&lO#52f0fc&lT#61f1fc&lE #70f1fc&lC#7ff2fc&lR#8ff2fd&lA#9ef3fd&lT#adf3fd&lE &8| &7Crate Key'
+  Lore:
+    - '&8Crate Key'
+    - '&r'
+    - '&7Open this key to unlock powerful'
+    - '&7rewards, ranging from armor and'
+    - '&7gear to exclusive cosmetics!'
+    - '&r'
+    - '&e→ &lOPEN&r&e at &n/warp crates'
+  Item_Flags: [ ]
+  Unbreakable: false

@@ -1,0 +1,31 @@
+tasks:
+  mobkilling:
+    type: "mobkilling"
+    mob: TURTLE
+    amount: 75
+display:
+  name: "&cHunter &8▪ &fTurtle"
+  lore-normal:
+    - "&8&m----------------------------"
+    - "&7You need to killing a certain"
+    - "&7entity to receive the reward."
+    - ""
+    - "&#3ae995Information:"
+    - "&#3ae995▪ &fAction: &cKill"
+    - "&#3ae995▪ &fEntity: &#3ae995Turtle"
+    - "&#3ae995▪ &fAmount: &#3ae99575"
+    - "&#3ae995▪ &fProgress: &#3ae995{mobkilling:progress}&f/&#3ae99575"
+    - "&#3ae995▪ &fReward: &e600$"
+    - "&8&m----------------------------"
+  type: "TURTLE_SPAWN_EGG"
+rewards:
+  - "eco give {player} 600"
+options:
+  category: "hunter"
+  requires:
+  - "hunterturtle2"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 231

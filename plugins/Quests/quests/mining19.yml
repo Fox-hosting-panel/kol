@@ -1,0 +1,32 @@
+tasks:
+  blockbreakcertain:
+    type: "blockbreakcertain"
+    block: REDSTONE_ORE
+    check-coreprotect: true
+    amount: 128
+display:
+  name: "&#f10cffMining &8▪ &fRedstone Ore"
+  lore-normal:
+    - '&8&m----------------------------'
+    - '&7You need to mine a certain amount'
+    - '&7of minerals to receive the reward.'
+    - ""
+    - '&#3ae995Information:'
+    - '&#3ae995▪ &fAction: &#f10cffBreak'
+    - '&#3ae995▪ &fBlock: &#3ae995Redstone Ore'
+    - '&#3ae995▪ &fAmount: &#3ae995128'
+    - '&#3ae995▪ &fProgress: &#3ae995{blockbreakcertain:progress}&f/&#3ae995128'
+    - '&#3ae995▪ &fReward: &e300$'
+    - '&8&m----------------------------'
+  type: "REDSTONE_ORE"
+rewards:
+  - "eco give {player} 300"
+options:
+  category: "mining"
+  requires:
+  - "mining18"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 19

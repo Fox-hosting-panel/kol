@@ -1,0 +1,29 @@
+tasks:
+  brewing:
+    type: 'brewing'
+    amount: 30   
+display:
+  name: '&dBrewing &8▪ &fPotions VI'
+  lore-normal:
+    - '&8&m-----------------------------'
+    - '&7You need to brew a certain amount'
+    - '&7of potions to receive the reward.'
+    - ''
+    - '&#3ae995Information:'
+    - '&#3ae995▪ &fAction: &dBrew'
+    - '&#3ae995▪ &fAmount: &#3ae99530'
+    - '&#3ae995▪ &fProgress: &#3ae995{brewing:progress}&f/&#3ae99530'
+    - '&#3ae995▪ &fReward: &e750$'
+    - '&8&m-----------------------------'
+  type: 'BREWING_STAND'
+rewards:
+  - 'eco give {player} 750'
+options:
+  category: 'brewing'
+  requires: 
+  - "brewingpotions5"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 6

@@ -1,0 +1,429 @@
+{
+  "premium_purchase": false,
+  "reloaded": false,
+  "worldguard_config_check": false,
+  "server": {
+    "java": "21",
+    "server-information": {
+      "server-type": "Paper",
+      "minecraft-version": "1.21.1",
+      "server-build": "133",
+      "bukkit-version": "1.21.1-R0.1-SNAPSHOT",
+      "raw-version": "1.21.1-133-3cb8529 (MC: 1.21.1)"
+    },
+    "bslib-server-version": {
+      "nms": "v1_21_R1",
+      "name": "v1_21_1"
+    },
+    "simplepets": {
+      "version": "5.0-BUILD-278",
+      "legacy-pathfinding": false
+    }
+  },
+  "plugins": [
+    "CMILib (1.5.1.3)",
+    "Citizens (2.0.35-SNAPSHOT (build 3591))",
+    "ClearLag (3.2.2)",
+    "CoinsEngine (2.3.4)",
+    "DecentHolograms (2.8.11)",
+    "DeluxeMenus (1.14.0-Release)",
+    "DeluxeTags (1.8.2-Release)",
+    "EconomyShopGUI (6.8.1)",
+    "Essentials (2.21.0-dev+115-6157668)",
+    "EssentialsSpawn (2.21.0-dev+115-6157668)",
+    "FastAsyncWorldEdit (2.11.3-SNAPSHOT-908;c249654)",
+    "Geyser-Spigot (2.8.3-SNAPSHOT)",
+    "GriefPrevention (16.18.1)",
+    "Jobs (5.2.4.2)",
+    "KitPreview (2.4)",
+    "LuckPerms (5.4.89)",
+    "MOTD (2.3.10)",
+    "Multiverse-Core (4.3.1-b861)",
+    "OmegaVision (2.5.16)",
+    "PlaceholderAPI (2.11.6)",
+    "ProtocolLib (5.3.0-SNAPSHOT-726)",
+    "Quests (5.1.3-b503)",
+    "QuickShop-Hikari (6.2.0.7)",
+    "SilkSpawners (8.3.0)",
+    "SimpleRename (13.9)",
+    "TogglePvp (8.1)",
+    "Vault (1.7.3-b131)",
+    "ViaBackwards (5.4.2)",
+    "ViaVersion (5.4.2)",
+    "Votifier (2.7.3)",
+    "WorldGuard (7.0.12+829a4a4)",
+    "ajLeaderboards (2.7.0)",
+    "floodgate (2.2.4-SNAPSHOT (b118-40d320a))",
+    "nightcore (2.6.3)",
+    "packetevents (2.4.0)"
+  ],
+  "loaded_addons": [
+    {
+      "addon-name": "PetWeight(v0.3) by: brainsynder",
+      "addon-file-name": "PetWeightAddon.jar",
+      "addon-modules": [
+        "Module: 'PetWeight' | Loaded: true | Enabled: true"
+      ]
+    },
+    {
+      "addon-name": "PermissionLore(v0.1) by: brainsynder",
+      "addon-file-name": "PermissionLoreAddon.jar",
+      "addon-modules": [
+        "Module: 'PermissionLore' | Loaded: true | Enabled: true"
+      ]
+    },
+    {
+      "addon-name": "PvpAddon(v0.2) by: brainsynder",
+      "addon-file-name": "PvpAddon.jar",
+      "addon-modules": [
+        "Module: 'PvpAddon' | Loaded: true | Enabled: true"
+      ]
+    }
+  ],
+  "debug_log": [
+    {
+      "time/date": "2025/09/24 | 01:28:35:118",
+      "level": "Debug",
+      "message": [
+        "Plugin is on a server that is using Mojang Mappings"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 109)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:35:267",
+      "level": "Debug",
+      "message": [
+        "Found support for version(s): [1.21.1]"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 126)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:35:267",
+      "level": "Debug",
+      "message": [
+        "Targeting version: 1.21.1"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 126)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:35:267",
+      "level": "Debug",
+      "message": [
+        "Setting API instance"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 141)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:35:271",
+      "level": "Debug",
+      "message": [
+        "Initializing Messages file"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 146)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:35:293",
+      "level": "Debug",
+      "message": [
+        "Initializing Config file"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 148)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:35:333",
+      "level": "Debug",
+      "message": [
+        "Plugin reloaded: false"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 154)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:35:808",
+      "level": "Warning",
+      "message": [
+        "The 'creaking' pet is not supported for your server version [will NOT affect your server]"
+      ],
+      "caller": "SpawnerUtil(method: <init>() | line: 49)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:35:842",
+      "level": "Debug",
+      "message": [
+        "Successfully Linked to v1_21_1 SpawnUtil Class"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 170)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:35:842",
+      "level": "Debug",
+      "message": [
+        "Initializing plugin managers"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 172)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:36:424",
+      "level": "Debug",
+      "message": [
+        "Initializing Menu Items..."
+      ],
+      "caller": "ItemManager(method: initiate() | line: 33)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:36:424",
+      "level": "Debug",
+      "message": [
+        "Loading Customizable Item Files..."
+      ],
+      "caller": "ItemManager(method: initiate() | line: 37)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:36:446",
+      "level": "Debug",
+      "message": [
+        "Files have been loaded."
+      ],
+      "caller": "ItemManager(method: initiate() | line: 66)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:36:450",
+      "level": "Debug",
+      "message": [
+        "Initializing Inventories..."
+      ],
+      "caller": "PetCore(method: onEnable() | line: 172)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:36:450",
+      "level": "Debug",
+      "message": [
+        "Loading Customizable Inventories Files..."
+      ],
+      "caller": "PetCore(method: onEnable() | line: 172)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:36:485",
+      "level": "Debug",
+      "message": [
+        "Files have been loaded."
+      ],
+      "caller": "PetCore(method: onEnable() | line: 172)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:36:486",
+      "level": "Debug",
+      "message": [
+        "Initializing SQL Handler"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 174)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:36:494",
+      "level": "Debug",
+      "message": [
+        "Registering commands"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 183)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:36:519",
+      "level": "Debug",
+      "message": [
+        "- Registering sub-command: help"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 184)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:36:522",
+      "level": "Debug",
+      "message": [
+        "- Registering sub-command: summon"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 184)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:36:522",
+      "level": "Debug",
+      "message": [
+        "- Registering sub-command: modify"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 184)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:36:522",
+      "level": "Debug",
+      "message": [
+        "- Registering sub-command: remove"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 184)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:36:524",
+      "level": "Debug",
+      "message": [
+        "- Registering sub-command: list"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 184)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:36:525",
+      "level": "Debug",
+      "message": [
+        "- Registering sub-command: gui"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 184)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:36:525",
+      "level": "Debug",
+      "message": [
+        "- Registering sub-command: data"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 184)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:36:525",
+      "level": "Debug",
+      "message": [
+        "- Registering sub-command: rename"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 184)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:36:526",
+      "level": "Debug",
+      "message": [
+        "- Registering sub-command: purchased"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 184)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:36:527",
+      "level": "Debug",
+      "message": [
+        "- Registering sub-command: permissions"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 184)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:36:527",
+      "level": "Debug",
+      "message": [
+        "- Registering sub-command: regenerate"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 184)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:36:528",
+      "level": "Debug",
+      "message": [
+        "- Registering sub-command: debug"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 184)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:36:528",
+      "level": "Debug",
+      "message": [
+        "- Registering sub-command: addon"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 184)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:36:528",
+      "level": "Debug",
+      "message": [
+        "- Registering sub-command: database"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 184)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:36:531",
+      "level": "Debug",
+      "message": [
+        "- Registering sub-command: reload"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 184)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:36:531",
+      "level": "Debug",
+      "message": [
+        "- Registering sub-command: petconfig"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 184)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:36:539",
+      "level": "Debug",
+      "message": [
+        "- Registering sub-command: report"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 184)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:36:541",
+      "level": "Debug",
+      "message": [
+        "Registering plugin listeners"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 189)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:28:36:562",
+      "level": "ADDON",
+      "message": [
+        "Loading addons in '5 SECONDS'"
+      ],
+      "caller": "PetCore(method: onEnable() | line: 203)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:29:27:618",
+      "level": "ADDON",
+      "message": [
+        "Loading modules for the PetWeight addon"
+      ],
+      "caller": "PetCore(method: run() | line: 209)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:29:27:632",
+      "level": "ADDON",
+      "message": [
+        "Loading modules for the PermissionLore addon"
+      ],
+      "caller": "PetCore(method: run() | line: 209)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:29:27:644",
+      "level": "ADDON",
+      "message": [
+        "Loading modules for the PvpAddon addon"
+      ],
+      "caller": "PetCore(method: run() | line: 209)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:29:27:659",
+      "level": "Debug",
+      "message": [
+        "Loading Metrics"
+      ],
+      "caller": "PetCore(method: run() | line: 212)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:29:28:088",
+      "level": "Update",
+      "message": [
+        "There is an update for the addon 'PetWeight' version 0.4"
+      ],
+      "caller": "AddonManager(method: fetchAddons3() | line: 448)"
+    },
+    {
+      "time/date": "2025/09/24 | 01:32:07:912",
+      "level": "Debug",
+      "message": [
+        "Saving player pets (if there are any)"
+      ],
+      "caller": "PetCore(method: onDisable() | line: 248)"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+tasks:
+  farming:
+    type: "farming"
+    amount: 200
+    block: "CARROTS"  
+display:
+  name: '&dFarming &8▪ &fCarrot'
+  lore-normal:
+    - "&8&m----------------------------"
+    - "&7You need to harvest a certain"
+    - "&7resource to receive the reward."
+    - ""
+    - "&#3ae995Information:"
+    - "&#3ae995▪ &fAction: &dHarvest"
+    - "&#3ae995▪ &fCrop: &#3ae995Carrot"
+    - "&#3ae995▪ &fAmount: &#3ae995200"
+    - "&#3ae995▪ &fProgress: &#3ae995{farming:progress}&f/&#3ae995200"
+    - "&#3ae995▪ &fReward: &e750$"
+    - "&8&m----------------------------"
+  type: "CARROT"
+rewards:
+  - "eco give {player} 750"
+options:
+  category: "farming"
+  requires:
+  - "farming3"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 4

@@ -1,0 +1,31 @@
+tasks:
+  fishingcertain:
+    type: 'fishingcertain'
+    item: NAME_TAG
+    amount: 4
+display:
+  name: '&#3ca1ffFishing &8▪ &fName Tag'
+  lore-normal:
+    - '&8&m----------------------------'
+    - '&7You need to catch certain amount'
+    - '&7of fish to receive the reward.'
+    - ''
+    - '&#3ae995Information:'
+    - '&#3ae995▪ &fAction: &#3ca1ffCatch'
+    - '&#3ae995▪ &fEntity: &#3ae995Name Tag'
+    - '&#3ae995▪ &fAmount: &#3ae9954'
+    - '&#3ae995▪ &fProgress: &#3ae995{fishingcertain:progress}&f/&#3ae9954'
+    - '&#3ae995▪ &fReward: &e800$'
+    - '&8&m----------------------------'
+  type: 'NAME_TAG'
+rewards:
+  - 'eco give {player} 800'
+options:
+  category: 'fishing'
+  requires:
+  - "fishingnametag3"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 54

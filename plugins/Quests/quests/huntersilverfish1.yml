@@ -1,0 +1,30 @@
+tasks:
+  mobkilling:
+    type: "mobkilling"
+    mob: SILVERFISH
+    amount: 25
+display:
+  name: "&cHunter &8▪ &fSilverfish"
+  lore-normal:
+    - "&8&m----------------------------"
+    - "&7You need to killing a certain"
+    - "&7entity to receive the reward."
+    - ""
+    - "&#3ae995Information:"
+    - "&#3ae995▪ &fAction: &cKill"
+    - "&#3ae995▪ &fEntity: &#3ae995Silverfish"
+    - "&#3ae995▪ &fAmount: &#3ae99525"
+    - "&#3ae995▪ &fProgress: &#3ae995{mobkilling:progress}&f/&#3ae99525"
+    - "&#3ae995▪ &fReward: &e100$"
+    - "&8&m----------------------------"
+  type: "SILVERFISH_SPAWN_EGG"
+rewards:
+  - "eco give {player} 100"
+options:
+  category: "hunter"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 185

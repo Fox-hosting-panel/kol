@@ -1,0 +1,31 @@
+tasks:
+  blockbreakcertain:
+    type: "blockbreakcertain"
+    block: COAL_ORE
+    check-coreprotect: true
+    amount: 32
+display:
+  name: "&#f10cffMining &8▪ &fCoal Ore"
+  lore-normal:
+    - '&8&m----------------------------'
+    - '&7You need to mine a certain amount'
+    - '&7of minerals to receive the reward.'
+    - ""
+    - '&#3ae995Information:'
+    - '&#3ae995▪ &fAction: &#f10cffBreak'
+    - '&#3ae995▪ &fBlock: &#3ae995Coal Ore'
+    - '&#3ae995▪ &fAmount: &#3ae99532'
+    - '&#3ae995▪ &fProgress: &#3ae995{blockbreakcertain:progress}&f/&#3ae99532'
+    - '&#3ae995▪ &fReward: &e45$'
+    - '&8&m----------------------------'
+  type: "COAL_ORE"
+rewards:
+  - "eco give {player} 45"
+options:
+  category: "mining"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 1

@@ -1,0 +1,51 @@
+title: '{abilities_title}'
+size: 4
+fill:
+  enabled: true
+  material: black_stained_glass_pane
+items:
+  back:
+    material: arrow
+    pos: 3,0
+    display_name: '{back}'
+    lore:
+      - '{back_click}'
+templates:
+  locked_ability:
+    material: gray_dye
+    display_name: '&#FF361B{name} {locked}'
+    lore:
+      - "&8Skill Progress"
+      - ""
+      - '{locked_desc}'
+      - ' '
+      - '{unlocked_at}'
+  locked_mana_ability:
+    pos: 2,4
+    material: gray_dye
+    display_name: '&#BA1BFF{name} {locked}'
+    lore:
+      - "&8Skill Progress"
+      - ""
+      - '{locked_desc}'
+      - ' '
+      - '{unlocked_at}'
+  unlocked_ability:
+    material: red_dye
+    display_name: '&#FF361B{name} {unlocked}'
+    lore:
+      - "&8Skill Progress"
+      - ""
+      - '{your_ability_level}'
+      - ' '
+      - '{unlocked_desc}'
+  unlocked_mana_ability:
+    pos: 2,4
+    material: magenta_dye
+    display_name: '&#BA1BFF{name} unlocked}'
+    lore:
+      - "&8Skill Progress"
+      - ""
+      - '{your_ability_level}'
+      - ' '
+      - '{unlocked_desc}'

@@ -1,0 +1,33 @@
+Fisherman:
+  fullname: Fisherman
+  shortname: Fi
+  FullDescription:
+  - "Earns money from fishing."
+  ChatColour: GOLD
+  chat-display: full
+  max-level: 200
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 1
+  Quests:
+    '0':
+  Gui:
+    Item: fishing_rod
+  Fish:
+    cod:
+      income: 150.0
+      experience: 10.0
+    salmon:
+      income: 350
+      experience: 20.0
+    tropical_fish:
+      income: 3500.0
+      experience: 1250.0
+    pufferfish:
+      income: 750
+      experience: 250.0

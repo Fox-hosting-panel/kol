@@ -1,0 +1,32 @@
+tasks:
+  mobkilling:
+    type: "mobkilling"
+    mob: GHAST
+    amount: 50
+display:
+  name: "&#fc00ffExperience &8▪ &fGhast"
+  lore-normal:
+    - "&8&m----------------------------"
+    - "&7You need to killing a certain"
+    - "&7entity to receive the reward."
+    - ""
+    - "&#3ae995Information:"
+    - "&#3ae995▪ &fAction: &#fc00ffKill"
+    - "&#3ae995▪ &fEntity: &#3ae995Ghast"
+    - "&#3ae995▪ &fAmount: &#3ae99550"
+    - "&#3ae995▪ &fProgress: &#3ae995{mobkilling:progress}&f/&#3ae99550"
+    - "&#3ae995▪ &fReward: &e45xp"
+    - "&8&m----------------------------"
+  type: "GHAST_SPAWN_EGG"
+rewards:
+  - "xp give {player} 45l"
+rewardstring:
+  - "&#3ae995&lQUEST &8| &e45 exp &7was added to your in-game balance."
+options:
+  category: "expquests"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 21

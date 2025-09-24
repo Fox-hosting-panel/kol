@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "item": {
+    "material": "CHAIN_COMMAND_BLOCK",
+    "lore": [
+      "&8Pet Manage",
+      "",
+      "&#fcfcfcClick here to save your ",
+      "&#fcfcfccurrent pet for you to ",
+      "&#fcfcfcspawn later.",
+      "",
+      "&#f6eb33▶ Click to access."
+    ],
+    "name": "&#E3C79ASave Pet"
+  }
+}

@@ -1,0 +1,30 @@
+tasks:
+  walking:
+    type: 'walking'
+    distance: 2500
+    mode: pig
+display:
+  name: '&bExplorer &8▪ &fPig'
+  lore-normal:
+    - '&8&m----------------------------'
+    - '&7You need to travel a certain'
+    - '&7distance to receive the reward.'
+    - ''
+    - '&#3ae995Information:'
+    - '&#3ae995▪ &fAction: &bTravel'
+    - '&#3ae995▪ &fMode: &#3ae995Pig'
+    - '&#3ae995▪ &fDistance: &#3ae9952500'
+    - '&#3ae995▪ &fProgress: &#3ae995{walking:progress}&f/&#3ae9952500'
+    - '&#3ae995▪ &fReward: &e500$'
+    - '&8&m----------------------------'
+  type: 'CARROT_ON_A_STICK'
+rewards:
+  - 'eco give {player} 500'
+options:
+  category: 'explorer'
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 9

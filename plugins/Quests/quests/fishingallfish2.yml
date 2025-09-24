@@ -1,0 +1,30 @@
+tasks:
+  fishing:
+    type: 'fishing'
+    amount: 40
+display:
+  name: '&#3ca1ffFishing &8▪ &fAll Fish'
+  lore-normal:
+    - '&8&m----------------------------'
+    - '&7You need to catch certain amount'
+    - '&7of fish to receive the reward.'
+    - ''
+    - '&#3ae995Information:'
+    - '&#3ae995▪ &fAction: &#3ca1ffCatch'
+    - '&#3ae995▪ &fEntity: &#3ae995All Fish'
+    - '&#3ae995▪ &fAmount: &#3ae99540'
+    - '&#3ae995▪ &fProgress: &#3ae995{fishing:progress}&f/&#3ae99540'
+    - '&#3ae995▪ &fReward: &e200$'
+    - '&8&m----------------------------'
+  type: 'COD'
+rewards:
+  - 'eco give {player} 200'
+options:
+  category: 'fishing'
+  requires:
+  - "fishingallfish1"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 57

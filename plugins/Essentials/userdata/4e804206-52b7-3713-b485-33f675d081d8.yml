@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 172.18.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1758653950173
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1758654014744
+  login: 1758653783974
+money: '0'
+last-account-name: Mahmow600k
+lastlocation:
+  world: 0c52527c-f895-4989-828f-80caa9f6e8b5
+  world-name: Spawn
+  x: -40.6254264721245
+  y: 89.0
+  z: 124.9253140016553
+  yaw: 106.20184326171875
+  pitch: 0.7500741481781006
+logoutlocation:
+  world: 0c52527c-f895-4989-828f-80caa9f6e8b5
+  world-name: Spawn
+  x: 354.62930756572507
+  y: -52.0
+  z: 114.68326517785808
+  yaw: 31.691497802734375
+  pitch: -90.0

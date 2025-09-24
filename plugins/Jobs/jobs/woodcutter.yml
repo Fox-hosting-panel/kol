@@ -1,0 +1,31 @@
+Woodcutter:
+  fullname: Woodcutter
+  shortname: W
+  FullDescription:
+  - "Earns money felling and planting trees"
+  ChatColour: GOLD
+  chat-display: full
+  max-level: 200
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 1
+  Quests:
+    '0':
+  Gui:
+    Item: iron_axe
+  Break:
+    materials:
+    - mangrove_log;20.0;0;3.15
+    - acacia_log;20.0;0;3.15
+    - warped_stem;20.0;0;3.15
+    - birch_log;20.0;0;3.15
+    - crimson_stem;20.0;0;3.15
+    - oak_log;20.0;0;3.15
+    - dark_oak_log;10.0;0;1.6
+    - spruce_log;10.0;0;1.6
+    - jungle_log;10.0;0;1.6

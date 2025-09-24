@@ -1,0 +1,22 @@
+# -------------------------------------------------------------------------------------------
+#
+#  Welcome to OmegaVision's User Data file.
+#
+#  You generally won't need to touch this file
+#  as it is just to store data about all the users.
+#
+# -------------------------------------------------------------------------------------------
+
+Users:
+  3d5432ca-b1b9-43f1-bc31-67a521aba1aa:
+    Night_Vision: false
+    Limit_Reached: false
+    Reset_Timer_Active: false
+    Limit_Reached_Time: 0
+    Limit: 0
+  4e804206-52b7-3713-b485-33f675d081d8:
+    Night_Vision: false
+    Limit_Reached: false
+    Reset_Timer_Active: false
+    Limit_Reached_Time: 0
+    Limit: 0

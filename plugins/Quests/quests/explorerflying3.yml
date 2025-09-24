@@ -1,0 +1,31 @@
+tasks:
+  walking:
+    type: 'walking'
+    distance: 7500
+    mode: flying
+display:
+  name: '&bExplorer &8▪ &fFlying'
+  lore-normal:
+    - '&8&m----------------------------'
+    - '&7You need to travel a certain'
+    - '&7distance to receive the reward.'
+    - ''
+    - '&#3ae995Information:'
+    - '&#3ae995▪ &fAction: &bTravel'
+    - '&#3ae995▪ &fMode: &#3ae995Flying'
+    - '&#3ae995▪ &fDistance: &#3ae9957500'
+    - '&#3ae995▪ &fProgress: &#3ae995{walking:progress}&f/&#3ae9957500'
+    - '&#3ae995▪ &fReward: &e1200$'
+    - '&8&m----------------------------'
+  type: 'FEATHER'
+rewards:
+  - 'eco give {player} 1200'
+options:
+  category: 'explorer'
+  requires:
+  - "explorerflying2"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 39

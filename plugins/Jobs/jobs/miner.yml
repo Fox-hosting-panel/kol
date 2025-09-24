@@ -1,0 +1,74 @@
+Miner:
+  fullname: Miner
+  shortname: M
+  FullDescription:
+  - "&fHope you like getting your hands dirty!"
+  - "&fEarn money by mining valuable ores and"
+  - "&fminerals."
+  ChatColour: GOLD
+  chat-display: full
+  max-level: 200
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 1
+  Quests:
+    '0':
+  Gui:
+    Item: diamond_pickaxe
+  Break:
+    ancient_debris:
+      income: 800
+      experience: 28
+    emerald_ore:
+      income: 500
+      experience: 16.0
+    diamond_ore:
+      income: 400
+      experience: 14.0
+    lapis_ore:
+      income: 70
+      experience: 12.0
+    gold_ore:
+      income: 60
+      experience: 10.0
+    nether_gold_ore:
+      income: 50
+      experience: 10.0
+    redstone_ore:
+      income: 50
+      experience: 9.0
+    iron_ore:
+      income: 40
+      experience: 8.0
+    nether_quartz_ore:
+      income: 25
+      experience: 5.0
+    copper_ore:
+      income: 25
+      experience: 5.0
+    coal_ore:
+      income: 25
+      experience: 5.0
+    end_stone:
+      income: 1.30
+      experience: 0.20
+    terracotta:
+      income: 1.25
+      experience: 0.15
+    basalt:
+      income: 1.0
+      experience: 0.10
+    stone:
+      income: 1.0
+      experience: 0.15
+    sandstone:
+      income: 1.0
+      experience: 0.10
+    netherrack:
+      income: 1.0
+      experience: 0.10

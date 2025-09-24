@@ -1,0 +1,31 @@
+tasks:
+  mobkilling:
+    type: "mobkilling"
+    mob: WOLF
+    amount: 100
+display:
+  name: "&cHunter &8▪ &fWolf"
+  lore-normal:
+    - "&8&m----------------------------"
+    - "&7You need to killing a certain"
+    - "&7entity to receive the reward."
+    - ""
+    - "&#3ae995Information:"
+    - "&#3ae995▪ &fAction: &cKill"
+    - "&#3ae995▪ &fEntity: &#3ae995Wolf"
+    - "&#3ae995▪ &fAmount: &#3ae995100"
+    - "&#3ae995▪ &fProgress: &#3ae995{mobkilling:progress}&f/&#3ae995100"
+    - "&#3ae995▪ &fReward: &e800$"
+    - "&8&m----------------------------"
+  type: "WOLF_SPAWN_EGG"
+rewards:
+  - "eco give {player} 800"
+options:
+  category: "hunter"
+  requires:
+  - "hunterwolf3"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 264

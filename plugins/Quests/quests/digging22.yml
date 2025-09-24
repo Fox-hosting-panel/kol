@@ -1,0 +1,32 @@
+tasks:
+  blockbreakcertain:
+    type: "blockbreakcertain"
+    block: MYCELIUM
+    check-coreprotect: true
+    amount: 128
+display:
+  name: "&#cb8cffDigging &8▪ &fMycelium"
+  lore-normal:
+    - '&8&m-----------------------------'
+    - "&7You need to break a certain"
+    - "&7block to receive the reward."
+    - ""
+    - '&#3ae995Information:'
+    - '&#3ae995▪ &fAction: &#cb8cffBreak'
+    - '&#3ae995▪ &fBlock: &#3ae995Mycelium'
+    - '&#3ae995▪ &fAmount: &#3ae995128'
+    - '&#3ae995▪ &fProgress: &#3ae995{blockbreakcertain:progress}&f/&#3ae995128'
+    - '&#3ae995▪ &fReward: &e90$'
+    - '&8&m----------------------------'
+  type: "MYCELIUM"
+rewards:
+  - "eco give {player} 90"
+options:
+  category: "digging"
+  requires:
+    - "digging21"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 22

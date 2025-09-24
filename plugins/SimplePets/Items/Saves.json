@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "item": {
+    "material": "COMMAND_BLOCK",
+    "lore": [
+      "&8Pet Manage",
+      "",
+      "&#fcfcfcView the pets you have ",
+      "&#fcfcfcsaved.",
+      "",
+      "&#f6eb33▶ Click to access."
+    ],
+    "name": "&#E3C79APet Saves"
+  }
+}

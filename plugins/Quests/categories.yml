@@ -1,0 +1,276 @@
+# Categories are a way of grouping up quests.
+# When a player uses /quests, a menu of categories will be presented to them.
+# When a player clicks ona category, a list of quests under that category will show.
+# If categories are disabled, all quests will be shown under one big GUI.
+# Players can access specific categories by command using /quests c [category].
+# If a quest does not have a category, it will not be shown.
+categories:
+  breeding:
+    display:
+      name: "&dBreeding Quests"
+      lore:
+        - "&8Quest Category"
+        - "&r"
+        - "&dDescription"
+        - "&fLove working with animals? These are the quests"
+        - "&ffor you! Complete these tasks by breeding mobs."
+        - "&r"
+        - "&dInformation"
+        - "&d ◆ &fTotal Quests: &d%quests_category:breeding_all%"
+        - "&d ◆ &fCompleted: &d%quests_category:breeding_completed%&7/&d%quests_category:breeding_all%"
+        - "&r"
+        - "&e→ &lCLICK&r&e to view category"
+      type: "BONE"
+
+
+
+  playtime:
+    display:
+      name: "&bPlaytime Quests"
+      lore:
+        - "&8Quest Category"
+        - "&r"
+        - "&bDescription"
+        - "&fQuite possibly the easiest Quests on the server!"
+        - "&fComplete these tasks by simply playing!"
+        - "&r"
+        - "&bInformation"
+        - "&b ◆ &fTotal Quests: &b%quests_category:playtime_all%"
+        - "&b ◆ &fCompleted: &b%quests_category:playtime_completed%&7/&b%quests_category:playtime_all%"
+        - "&r"
+        - "&e→ &lCLICK&r&e to view category"
+      type: "CLOCK"
+
+
+  woodcutting:
+    display:
+      name: "&dWoodcutting Quests"
+      lore:
+        - "&8Quest Category"
+        - "&r"
+        - "&dDescription"
+        - "&fWood is one of the most useful resources, take"
+        - "&fadvantage of it! Complete these tasks by cutting wood."
+        - "&r"
+        - "&dInformation"
+        - "&d ◆ &fTotal Quests: &d%quests_category:woodcutting_all%"
+        - "&d ◆ &fCompleted: &d%quests_category:woodcutting_completed%&7/&d%quests_category:woodcutting_all%"
+        - "&r"
+        - "&e→ &lCLICK&r&e to view category"
+      type: "IRON_AXE"
+      
+  brewing:
+    display:
+      name: "&6Brewing Quests"
+      lore:
+        - "&8Quest Category"
+        - "&r"
+        - "&6Description"
+        - "&fWe hope you know your potion recipes, you'll need"
+        - "&fthem! Complete these tasks by brewing potions."
+        - "&r"
+        - "&6Information"
+        - "&6 ◆ &fTotal Quests: &6%quests_category:brewing_all%"
+        - "&6 ◆ &fCompleted: &6%quests_category:brewing_completed%&7/&6%quests_category:brewing_all%"
+        - "&r"
+        - "&e→ &lCLICK&r&e to view category"
+      type: "BREWING_STAND"
+
+  mining:
+    display:
+      name: "&cMining Quests"
+      lore:
+        - "&8Quest Category"
+        - "&r"
+        - "&cDescription"
+        - "&fExplore the endless caves beneath you with Mining"
+        - "&fQuests! Complete these tasks by breaking blocks."
+        - "&r"
+        - "&cInformation"
+        - "&c ◆ &fTotal Quests: &c%quests_category:mining_all%"
+        - "&c ◆ &fCompleted: &c%quests_category:mining_completed%&7/&c%quests_category:mining_all%"
+        - "&r"
+        - "&e→ &lCLICK&r&e to view category"
+      type: "IRON_PICKAXE"
+
+
+  fishing:
+    display:
+      name: "&9Fishing Quests"
+      lore:
+        - "&8Quest Category"
+        - "&r"
+        - "&9Description"
+        - "&fSit back, relax, and catch some fish from the sea!"
+        - "&fComplete these tasks by catching fish."
+        - "&r"
+        - "&9Information"
+        - "&9 ◆ &fTotal Quests: &9%quests_category:fishing_all%"
+        - "&9 ◆ &fCompleted: &9%quests_category:fishing_completed%&7/&9%quests_category:fishing_all%"
+        - "&r"
+        - "&e→ &lCLICK&r&e to view category"
+      type: "FISHING_ROD"
+
+  
+  building:
+    display:
+      name: "&dBuilding Quests"
+      lore:
+        - "&8Quest Category"
+        - "&r"
+        - "&dDescription"
+        - "&fLet your creativity run wild with Bulidng Quests!"
+        - "&fComplete these tasks by placing down specific blocks."
+        - "&r"
+        - "&dInformation"
+        - "&d ◆ &fTotal Quests: &d%quests_category:building_all%"
+        - "&d ◆ &fCompleted: &d%quests_category:building_completed%&7/&d%quests_category:building_all%"
+        - "&r"
+        - "&e→ &lCLICK&r&e to view category"
+      type: "CAKE"
+  
+  
+  
+  smelting:
+    display:
+      name: "&6Smelting Quests"
+      lore:
+        - "&8Quest Category"
+        - "&r"
+        - "&6Description"
+        - "&fTake advantage of one of the most useful features..."
+        - "&ffurnaces! Complete these tasks by smelting ores or food."
+        - "&r"
+        - "&6Information"
+        - "&6 ◆ &fTotal Quests: &6%quests_category:smelting_all%"
+        - "&6 ◆ &fCompleted: &6%quests_category:smelting_completed%&7/&6%quests_category:smelting_all%"
+        - "&r"
+        - "&e→ &lCLICK&r&e to view category"
+      type: "FURNACE"
+  
+  digging:
+    display:
+      name: "&9Digging Quests"
+      lore:
+        - "&8Quest Category"
+        - "&r"
+        - "&9Description"
+        - "&fDig, dig, dig! That's it."
+        - "&fComplete these tasks by - you guessed it - digging!"
+        - "&r"
+        - "&9Information"
+        - "&9 ◆ &fTotal Quests: &9%quests_category:digging_all%"
+        - "&9 ◆ &fCompleted: &9%quests_category:digging_completed%&7/&9%quests_category:digging_all%"
+        - "&r"
+        - "&e→ &lCLICK&r&e to view category"
+      type: "DIAMOND_SHOVEL"
+
+# true
+# 90775
+# 164339
+# 35763
+# %%__FILEHASH__%%
+
+
+  explorer:
+    display:
+      name: "&2Explorer Quests"
+      lore:
+        - "&8Quest Category"
+        - "&r"
+        - "&2Description"
+        - "&fNavigate around the (nearly) endless world!"
+        - "&fComplete these tasks by exploring the map."
+        - "&r"
+        - "&2Information"
+        - "&2 ◆ &fTotal Quests: &2%quests_category:explorer_all%"
+        - "&2 ◆ &fCompleted: &2%quests_category:explorer_completed%&7/&2%quests_category:explorer_all%"
+        - "&r"
+        - "&e→ &lCLICK&r&e to view category"
+      type: "MAP"
+  
+  expquests:
+    display:
+      name: "&eEXP Quests"
+      lore:
+        - "&8Quest Category"
+        - "&r"
+        - "&eDescription"
+        - "&fHow can you live without EXP?"
+        - "&fComplete these tasks by gaining EXP."
+        - "&r"
+        - "&eInformation"
+        - "&e ◆ &fTotal Quests: &e%quests_category:expquests_all%"
+        - "&e ◆ &fCompleted: &e%quests_category:expquests_completed%&7/&e%quests_category:expquests_all%"
+        - "&r"
+        - "&e→ &lCLICK&r&e to view category"
+      type: "EXPERIENCE_BOTTLE"
+
+  farming:
+    display:
+      name: "&aFarming Quests"
+      lore:
+        - "&8Quest Category"
+        - "&r"
+        - "&aDescription"
+        - "&fFarming is one of Survival's finest aspects! A farm is"
+        - "&fa must have. Complete these tasks by farming crops."
+        - "&r"
+        - "&aInformation"
+        - "&a ◆ &fTotal Quests: &a%quests_category:farming_all%"
+        - "&a ◆ &fCompleted: &a%quests_category:farming_completed%&7/&a%quests_category:farming_all%"
+        - "&r"
+        - "&e→ &lCLICK&r&e to view category"
+      type: "CARROT"
+  
+  
+  hunter:
+    display:
+      name: "&4Hunter Quests"
+      lore:
+        - "&8Quest Category"
+        - "&r"
+        - "&4Description"
+        - "&fTake down mobs and players! Complete"
+        - "&fthese tasks by eliminating mobs & players."
+        - "&r"
+        - "&4Information"
+        - "&4 ◆ &fTotal Quests: &4%quests_category:hunter_all%"
+        - "&4 ◆ &fCompleted: &4%quests_category:hunter_completed%&7/&4%quests_category:hunter_all%"
+        - "&r"
+        - "&e→ &lCLICK&r&e to view category"
+      type: "BOW"
+  
+  taming:
+    display:
+      name: "&dTaming Quests"
+      lore:
+        - "&8Quest Category"
+        - "&r"
+        - "&dDescription"
+        - "&fLove working with animals? These are the quests"
+        - "&ffor you! Complete these tasks by taming wild mobs."
+        - "&r"
+        - "&dInformation"
+        - "&d ◆ &fTotal Quests: &d%quests_category:taming_all%"
+        - "&d ◆ &fCompleted: &d%quests_category:taming_completed%&7/&d%quests_category:taming_all%"
+        - "&r"
+        - "&e→ &lCLICK&r&e to view category"
+      type: "BONE"
+
+  collecting:
+    display:
+      name: "&2Collecting Quests"
+      lore:
+        - "&8Quest Category"
+        - "&r"
+        - "&2Description"
+        - "&fWe hope you've got enough storage!"
+        - "&fComplete these tasks by collecting items."
+        - "&r"
+        - "&2Information"
+        - "&2 ◆ &fTotal Quests: &2%quests_category:collecting_all%"
+        - "&2 ◆ &fCompleted: &2%quests_category:collecting_completed%&7/&2%quests_category:collecting_all%"
+        - "&r"
+        - "&e→ &lCLICK&r&e to view category"
+      type: "ENDER_CHEST"

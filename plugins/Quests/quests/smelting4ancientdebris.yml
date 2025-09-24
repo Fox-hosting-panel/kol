@@ -1,0 +1,30 @@
+tasks:
+  smelting:
+    type: "smelting"
+    amount: 4
+    item: NETHERITE_SCRAP
+display:
+  name: "&#ff006fSmelting &8▪ &fAncient Debris"
+  lore-normal:
+    - '&8&m----------------------------'
+    - "&7You need to smelt a certain"
+    - "&7item to receive the reward."
+    - ""
+    - '&#3ae995Information:'
+    - '&#3ae995▪ &fAction: &#ff006fSmelt'
+    - '&#3ae995▪ &fItem: &#3ae995Ancient Debris'
+    - '&#3ae995▪ &fAmount: &#3ae9954'
+    - '&#3ae995▪ &fProgress: &#3ae995{smelting:progress}&f/&#3ae9954'
+    - '&#3ae995▪ &fReward: &e100$'
+    - '&8&m----------------------------'
+  type: "ANCIENT_DEBRIS"
+rewards:
+  - "eco give {player} 100"
+options:
+  category: "smelting"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 4

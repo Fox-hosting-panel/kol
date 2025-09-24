@@ -1,0 +1,30 @@
+tasks:
+  breeding:
+    type: 'breeding'
+    amount: 40
+display:
+  name: '&3Breeding &8▪ &fAnimals'
+  lore-normal:
+    - '&8&m----------------------------'
+    - '&7You need breed a certain amount'
+    - '&7of animals to receive the reward.'
+    - ''
+    - '&#3ae995Information:'
+    - '&#3ae995▪ &fAction: &3Breed'
+    - '&#3ae995▪ &fEntity: &#3ae995Cow, Sheep, Chicken, Pig..'
+    - '&#3ae995▪ &fAmount: &#3ae99540'
+    - '&#3ae995▪ &fProgress: &#3ae995{breeding:progress}&f/&#3ae99540'
+    - '&#3ae995▪ &fReward: &e550$'
+    - '&8&m----------------------------'
+  type: 'WHEAT'
+rewards:
+  - 'eco give {player} 550'
+options:
+  category: 'breeding'
+  requires:
+  - "breedinganimals3"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 4

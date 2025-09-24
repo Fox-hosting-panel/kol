@@ -1,0 +1,7 @@
+
+# This addon will be updated later on to add some more features
+Remove-Pet:
+  # Settings this to `true` will make it so when the player being hit is attacked, it will remove their pet(s)
+  From-Player: false
+  # Settings this to `true` will make it so when a player attacks another player, it will remove their pet(s)
+  From-Attacker: false

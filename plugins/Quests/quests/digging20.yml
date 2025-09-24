@@ -1,0 +1,32 @@
+tasks:
+  blockbreakcertain:
+    type: "blockbreakcertain"
+    block: PODZOL
+    check-coreprotect: true
+    amount: 512
+display:
+  name: "&#cb8cffDigging &8▪ &fPodzol"
+  lore-normal:
+    - '&8&m-----------------------------'
+    - "&7You need to break a certain"
+    - "&7block to receive the reward."
+    - ""
+    - '&#3ae995Information:'
+    - '&#3ae995▪ &fAction: &#cb8cffBreak'
+    - '&#3ae995▪ &fBlock: &#3ae995Podzol'
+    - '&#3ae995▪ &fAmount: &#3ae995512'
+    - '&#3ae995▪ &fProgress: &#3ae995{blockbreakcertain:progress}&f/&#3ae995512'
+    - '&#3ae995▪ &fReward: &e280$'
+    - '&8&m----------------------------'
+  type: "PODZOL"
+rewards:
+  - "eco give {player} 280"
+options:
+  category: "digging"
+  requires:
+    - "digging19"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 20

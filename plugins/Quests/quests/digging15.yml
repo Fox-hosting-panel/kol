@@ -1,0 +1,32 @@
+tasks:
+  blockbreakcertain:
+    type: "blockbreakcertain"
+    block: GRASS_BLOCK
+    check-coreprotect: true
+    amount: 256
+display:
+  name: "&#cb8cffDigging &8▪ &fGrass Block"
+  lore-normal:
+    - '&8&m-----------------------------'
+    - "&7You need to break a certain"
+    - "&7block to receive the reward."
+    - ""
+    - '&#3ae995Information:'
+    - '&#3ae995▪ &fAction: &#cb8cffBreak'
+    - '&#3ae995▪ &fBlock: &#3ae995Grass Block'
+    - '&#3ae995▪ &fAmount: &#3ae995256'
+    - '&#3ae995▪ &fProgress: &#3ae995{blockbreakcertain:progress}&f/&#3ae995256'
+    - '&#3ae995▪ &fReward: &e100$'
+    - '&8&m----------------------------'
+  type: "GRASS_BLOCK"
+rewards:
+  - "eco give {player} 100"
+options:
+  category: "digging"
+  requires:
+    - "digging14"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 15

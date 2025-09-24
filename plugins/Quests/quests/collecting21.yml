@@ -1,0 +1,37 @@
+tasks:
+  inventory:
+    type: "inventory"
+    item: LIME_DYE
+    remove-items-when-complete: true
+    update-progress: true
+    amount: 16
+display:
+  name: "&#ffd200Collecting &8▪ &fLime Dye"
+  lore-normal:
+    - '&8&m-----------------------------'
+    - "&7You need to get a certain amount"
+    - "&7of an item to receive the reward"
+    - ""
+    - '&#3ae995Information:'
+    - '&#3ae995▪ &fAction: &#ffd200Collect'
+    - '&#3ae995▪ &fItem: &#3ae995Lime Dye'
+    - '&#3ae995▪ &fAmount: &#3ae99516'
+    - '&#3ae995▪ &fProgress: &#3ae995{inventory:progress}&f/&#3ae99516'
+    - '&#3ae995▪ &fReward: &e15$'
+    - ""
+    - '&#ffd200[!] &fAttention:'
+    - '&#ffd200Your items will be taken from your'
+    - '&#ffd200inventory and they will go towards'
+    - '&#ffd200the progress count.'
+    - '&8&m-----------------------------'
+  type: "LIME_DYE"
+rewards:
+  - "eco give {player} 15"
+options:
+  category: "collecting"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 21

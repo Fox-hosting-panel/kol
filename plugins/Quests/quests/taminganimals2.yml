@@ -1,0 +1,30 @@
+tasks:
+  taming:
+    type: 'taming'
+    amount: 20
+display:
+  name: '&eTaming &8▪ &fAnimals'
+  lore-normal:
+    - '&8&m----------------------------'
+    - '&7You need to tame a certain amount'
+    - '&7of animals to receive the reward.'
+    - ''
+    - '&#3ae995Information:'
+    - '&#3ae995▪ &fAction: &eTame'
+    - '&#3ae995▪ &fEntity: &#3ae995Horse, Llama, Wolf, Cat..'
+    - '&#3ae995▪ &fAmount: &#3ae99520'
+    - '&#3ae995▪ &fProgress: &#3ae995{taming:progress}&f/&#3ae99520'
+    - '&#3ae995▪ &fReward: &e400$'
+    - '&8&m----------------------------'
+  type: 'SADDLE'
+rewards:
+  - 'eco give {player} 400'
+options:
+  category: 'taming'
+  requires:
+  - "taminganimals1"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 2

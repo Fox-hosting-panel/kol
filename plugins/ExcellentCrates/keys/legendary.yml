@@ -1,0 +1,17 @@
+Name: '&5Legendary Crate Key'
+Virtual: false
+Item:
+  Material: TRIPWIRE_HOOK
+  Amount: 1
+  Durability: 1
+  Name: '&d&ki&r #e700fb&lL#e600f3&lE#e600eb&lG#e500e3&lE#e500db&lN#e400d3&lD#e300cb&lA#e300c3&lR#e200bb&lY #e100b3&lC#e100ab&lR#e000a3&lA#e0009b&lT#df0093&lE &d&ki&r &8| &7Crate Key'
+  Lore:
+    - '&8Crate Key'
+    - '&r'
+    - '&7Open this key to unlock powerful'
+    - '&7rewards, ranging from armor and'
+    - '&7gear to exclusive cosmetics!'
+    - '&r'
+    - '&e→ &lOPEN&r&e at &n/warp crates'
+  Item_Flags: [ ]
+  Unbreakable: false
